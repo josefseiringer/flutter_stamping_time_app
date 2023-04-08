@@ -1,0 +1,4 @@
+DBID=<Your DB Id>
+BEARERTOKEN=<Your private Token>
+URLLISTSTAMPS = https://api.notion.com/v1/databases/<Your DB Id>/query
+

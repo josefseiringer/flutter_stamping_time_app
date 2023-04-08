@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:window_manager/window_manager.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import '../routes.dart';
 import '../bindings.dart';
@@ -15,6 +16,7 @@ void main() async {
     WindowManager.instance.setMinimumSize(const Size(1100, 768));
     WindowManager.instance.setMaximumSize(const Size(1100, 768));
   }
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
