@@ -1,4 +1,6 @@
-DBID=<Your DB Id>
+DBID=<Your DB Id Zeit>
+DBIDSUMMEN=<Your DB Id Summe>
 BEARERTOKEN=<Your private Token>
-URLLISTSTAMPS = https://api.notion.com/v1/databases/<Your DB Id>/query
+URLLISTSTAMPS = https://api.notion.com/v1/databases/<Your DB Id Zeit>/query
+URLLISTSTAMPSSUMME = https://api.notion.com/v1/databases/<Your DB Id Summe>/query
 

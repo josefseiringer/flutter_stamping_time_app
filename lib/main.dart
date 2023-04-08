@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'Flutter Demo',
+        title: 'Stamping Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
